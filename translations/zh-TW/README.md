@@ -66,7 +66,7 @@ CSS Reset 可以幫你在不同的瀏覽器上維持一致的樣式風格。你�
 
 #### [示範](http://codepen.io/AllThingsSmitty/pen/kkrkLL)
 
-注意：如果你接著套用 [繼承 `box-sizing`](#繼承-box-sizing) 這個技巧, 你或許不需要在你的 CSS Reset 中加入 `box-sizing` 屬性。
+**注意：** 如果你接著套用 [繼承 `box-sizing`](#繼承-box-sizing) 這個技巧, 你或許不需要在你的 CSS Reset 中加入 `box-sizing` 屬性。
 
 <sup>[回到目錄](#table-of-contents)</sup>
 
@@ -184,7 +184,7 @@ textarea:focus {
 }
 ```
 
-#### [Demo](https://codepen.io/AllThingsSmitty/pen/ePzoOP/)
+#### [示範](https://codepen.io/AllThingsSmitty/pen/ePzoOP/)
 
 <sup>[回到目錄](#table-of-contents)</sup>
 
@@ -240,7 +240,7 @@ ul > li:not(:last-child)::after {
 
 列表中最後一項不用加逗號，所以可以使用 `:not()` 偽類別 (pseudo-class) 。
 
-**注意：**這一技巧對於無障礙網頁，特別是螢幕閱讀器而言，並不理想。而且預設要複製貼網頁內容時，並不會包含 CSS 動態產生的內容，這點必須特別注意。
+**注意：** 這一技巧對於無障礙網頁，特別是螢幕閱讀器而言，並不理想。而且預設要複製貼網頁內容時，並不會包含 CSS 動態產生的內容，這點必須特別注意。
 
 <sup>[回到目錄](#table-of-contents)</sup>
 
